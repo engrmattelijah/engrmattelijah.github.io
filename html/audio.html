@@ -9,17 +9,30 @@
     <title>Matt Elijah Pineda - Media</title>
 </head>
 <body>
-    <nav>
-        <div class="nav-container">
-            <div class="logo">Matt Elijah <span>Pineda</span></div>
-            <div class="links">
-                <div class="link"><a href="../index.html">Home</a></div>
-                <div class="link"><a href="projects.html">Projects</a></div>
-                <div class="link"><a href="audio.html" style="color: rgb(0, 153, 255); border-bottom: 2px solid rgb(0, 153, 255);">Audio</a></div>
-                <div class="link"><a href="mailto:pineda.me234r@gmail.com">Contact</a></div>
-            </div>
+<nav>
+    <div class="nav-container">
+        <div class="logo">Matt Elijah <span>Pineda</span></div>
+        <div class="links">
+            <div class="link"><a href="../index.html">Home</a></div>
+            <!-- Toggle the 'active' style below depending on which page you are on -->
+            <div class="link"><a href="projects.html">Projects</a></div>
+            <div class="link"><a href="audio.html">Audio</a></div>
+            <div class="link"><a href="mailto:pineda.me234r@gmail.com">Contact</a></div>
         </div>
-    </nav>
+    </div>
+    <!-- ADD THIS BURGER ICON -->
+    <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+    <!-- ADD THIS DROPDOWN DIV -->
+    <div class="dropdown">
+        <div class="links">
+            <a href="../index.html">Home</a>
+            <a href="projects.html">Projects</a>
+            <a href="audio.html">Audio</a>
+            <a href="mailto:pineda.me234r@gmail.com">Contact</a>
+            <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+        </div>
+    </div>
+</nav>
 
     <section class="standalone-page">
         <h2 style="color: white; font-size: 2.5rem; margin-bottom: 40px; text-align: center;" data-aos="fade-up">Audio Production</h2>
@@ -66,5 +79,6 @@
 
     <script src="../scripts/aos.js"></script>
     <script>AOS.init({offset:0,});</script>
+    <script src="../scripts/script.js"></script>
 </body>
 </html>
