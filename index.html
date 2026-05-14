@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/aos.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Matt Elijah Pineda - Home</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+                Matt Elijah <span>Pineda</span>
+            </div>
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-delay="100"><a href="index.html" style="color: rgb(0, 153, 255); border-bottom: 2px solid rgb(0, 153, 255);">Home</a></div>
+                <div class="link" data-aos="fade-up" data-aos-delay="200"><a href="html/projects.html">Projects</a></div>
+                <div class="link" data-aos="fade-up" data-aos-delay="300"><a href="html/audio.html">Audio</a></div>
+                <div class="link"><a href="mailto:pineda.me234r@gmail.com">Contact</a></div>
+            </div>
+        </div>
+        <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        <div class="dropdown">
+            <div class="links">
+                <a href="index.html">Home</a>
+                <a href="html/projects.html">Projects</a>
+                <a href="html/audio.html">Audio</a>
+                <a href="mailto:pineda.me234r@gmail.com">Contact</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+
+    <section>
+        <div class="main-container">
+            <div class="content">
+                <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">Hey I'm <span>Matt Elijah</span></h1>
+                <div data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900" class="typewriter">I'm a <span class="typewriter-text"></span><label for="">|</label></div>
+                <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100">Versatile Computer Engineering student with a decent foundation in front and backend development, digital design, and audio production. Adept at using Python frameworks, Adobe Photoshop, and modern AI tools to troubleshoot technical issues, design visual layouts, and compose custom music tracks. Seeking a flexible, asynchronous Virtual Assistant role to provide self-directed, high-quality administrative and multimedia support.</p>
+                <div class="social-links">
+                    <a href="mailto:pineda.me234r@gmail.com" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="https://github.com/engrmattelijah" target="_blank" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1400"><i class="fa-brands fa-github"></i></a>
+                    <a href="tel:+639626019283" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500"><i class="fa-solid fa-phone"></i></a>
+                </div>
+                <div class="btn" data-aos="zoom-out" data-aos-duration="1500" data-aos-delay="1800">
+                    <a href="https://drive.google.com/file/d/1tS4lyCXOHE_bn3mvgHULZFM2HWJ97bKf/view?usp=drive_link" target="_blank" style="text-decoration: none;">
+                        <button>View Full CV</button>
+                    </a>
+                </div>
+            </div>
+            <div class="image" data-aos="zoom-in" data-aos-duration="3000">
+                <img src="images/main.jpg" alt="Matt Elijah Pineda">
+            </div>
+        </div>
+    </section>
+
+    <script src="scripts/aos.js"></script>
+    <script>AOS.init({offset:0,});</script>
+    <script src="script.js"></script>
+</body>
+</html>
