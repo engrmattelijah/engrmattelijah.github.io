@@ -1,10 +1,11 @@
 function hamburg(){
     const navbar = document.querySelector(".dropdown")
-    navbar.style.transform  = "translateY(0px)"
+    navbar.style.transform = "translateY(0)"
 }
+
 function cancel(){
     const navbar = document.querySelector(".dropdown")
-    navbar.style.transform  = "translateY(-500px)"
+    navbar.style.transform = "translateY(-100%)"
 }
 
 // Typewriter effect updated for your roles
